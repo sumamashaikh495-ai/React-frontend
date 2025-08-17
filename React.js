@@ -44,7 +44,7 @@ export default function App() {
   // Yahan apne backend ka URL daalein.
   // Local development ke liye yeh theek hai.
   // Jab deploy karein to Render wala URL yahan daalna hoga.
-  const BACKEND_URL = 'http://127.0.0.1:8000';
+  const BACKEND_URL = 'https://backend-trasnlater.onrender.com';
 
   const onDrop = useCallback((acceptedFiles) => {
     setSubtitleFile(null);
